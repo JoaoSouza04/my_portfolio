@@ -30,12 +30,12 @@ function Hero() {
                     <Grid size={{xs: 12, md: 7}} display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                         <Typography color="secondary" variant="h1" textAlign={"center"} pb={2}>João Pedro</Typography>
                         <Typography color="primary.contrastText"variant="h2"textAlign={"center"}>I'm a Web Developer</Typography>
-                        <Grid container display={"flex"} justifyContent="center" pt={3} spacing={3} width={"70%"}>
+                        <Grid container display={"flex"} justifyContent="center" pt={3} spacing={3} width={"75%"}>
                             <Grid size={{xs: 12, md: 6}} display={"flex"} justifyContent="center">
                                 <StyledButton onClick={() => window.open("https://drive.google.com/file/d/1agW0fzTOmKh2OgRwy-JiCrktjfwQrY3s/view?usp=sharing", "_blank")}>
                                     <DownloadIcon/>
                                     <Typography>
-                                        Download CV
+                                        See / Download CV
                                     </Typography>
                                 </StyledButton>
                             </Grid>
