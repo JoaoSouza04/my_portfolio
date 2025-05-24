@@ -24,7 +24,7 @@ function About() {
     }))
 
     return (
-        <StyledAbout>
+        <StyledAbout id="about">
             <Grid container spacing={2} maxWidth="lg" margin="auto">
                 <Grid size={{xs: 12}}>
                     <Typography color="secondary" variant="h2" align="center" pb={5} gutterBottom>

@@ -13,7 +13,7 @@ const Projects = () => {
     }))
 
     return (
-            <StyledProjects>
+            <StyledProjects id="projects">
                 <Grid container maxWidth={"lg"} spacing={2} margin={"5%"}>
                     <Grid size={{xs: 12, md: 12}} display="flex" justifyContent="center">
                         <Typography color="secondary" variant="h2" textAlign={"center"} mt={5} pb={3} gutterBottom>Top Projects</Typography>

@@ -5,16 +5,17 @@ const Skills = () => {
 
     const StyledSkills = styled("div")(({theme}) => ({
         backgroundColor: theme.palette.primary.main,
+        minHeight: "100vh",
         display: "flex",
         alignItems: "center",
         justifyContent: "center", 
     }))
 
     return (
-            <StyledSkills>
-                <Grid container maxWidth={"lg"} spacing={2} margin={"5%"}>
-                    <Grid size={{xs: 12, md: 12}} display="flex" justifyContent="center">
-                        <Typography color="secondary" variant="h2" textAlign={"center"} mt={5} pb={3} gutterBottom>Skills</Typography>
+            <StyledSkills id="skills">
+                <Grid container spacing={2} maxWidth="lg" margin="auto">
+                    <Grid size={{xs: 12, md: 12}}>
+                        <Typography color="secondary" variant="h2" textAlign={"center"} pb={"10%"} gutterBottom>Skills</Typography>
                     </Grid>
                     <Grid size={{xs: 12, md: 12}} display="flex" justifyContent="space-evenly" alignItems="center" spacing={5} pb={3}>
                         <SiNodedotjs size={80} color="#339933"/>
