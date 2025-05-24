@@ -25,9 +25,21 @@ const NavBar = () => {
         <>
             <AppBar position="absolute">
                 <StyledToolbar>
-                    <MenuItem>About Me</MenuItem>
-                    <MenuItem>Skills</MenuItem>
-                    <MenuItem>Projects</MenuItem>
+                    <MenuItem>
+                        <a href="#about" style={{ textDecoration: "none", color: "inherit" }}>
+                            About Me
+                        </a>
+                    </MenuItem>
+                    <MenuItem href="#skills">
+                        <a href="#skills" style={{ textDecoration: "none", color: "inherit" }}>
+                            Skills
+                        </a>
+                    </MenuItem>
+                    <MenuItem href="#projects">
+                        <a href="#projects" style={{ textDecoration: "none", color: "inherit" }}>
+                            Projects
+                        </a>
+                    </MenuItem>
                 </StyledToolbar>
             </AppBar>
         </>
